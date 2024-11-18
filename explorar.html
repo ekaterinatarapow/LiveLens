@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>LiveLens | Explorar</title>
+        <link rel="icon" href="./img/icons/livelens-icono.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="./img/icons/livelens-logo.png" class="logo" /></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./explorar.html"><img src="./img/icons/buscar-icono.svg" alt="buscar" class="icono-nav" />Explorar</a>
+                    </li>
+                    <li>
+                        <a href="./proximos-eventos.html"
+                            ><img src="./img/icons/calendario-icono.svg" alt="calendario" class="icono-nav" />Próximos eventos</a
+                        >
+                    </li>
+                </ul>
+                <ul id="nav-cuenta">
+                    <li>
+                        <a href="./registrarse.html"
+                            ><img src="./img/icons/registro-icono.svg" alt="registro" class="icono-nav" />Registrarse</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./iniciar-sesion.html"
+                            ><img src="./img/icons/cuenta-icono.svg" alt="cuenta" class="icono-nav" />Iniciar sesión</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Explorar</h1>
+            <form action="#" method="get" class="buscador">
+                <input type="text" id="search-input" name="search" placeholder="Buscar..." />
+                <input type="submit" value="Buscar" />
+            </form>
+            <div class="recientes animate__animated animate__pulse" id="explorar-fotos">
+                <figure class="figures-explorar">
+                    <img src="./img/figures/inicio/david-guetta.png" alt="David Guetta 2024" />
+                    <figcaption>
+                        <p class="artista">David Guetta</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>6/01/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Movistar Arena</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@clarin</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/inicio/anyma.png" alt="Anyma 2024" />
+                    <figcaption>
+                        <p class="artista">Anyma</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>09/04/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Punta Carrasco</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@suarezfacundo</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/inicio/diplo-2.jpg" alt="Diplo 2024" />
+                    <figcaption>
+                        <p class="artista">Diplo</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>15/03/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Hipódromo de San Isidro</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@flow_arg</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/interpol.jpg" alt="Interpol" />
+                    <figcaption>
+                        <p class="artista">Interpol</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>02/06/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Luna Park</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@pogopedia</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/megadeth-3-2024.jpg" alt="Megadeth" />
+                    <figcaption>
+                        <p class="artista">Megadeth</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>12/04/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Movistar Arena</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@daiichulldm</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/jonas-brothers.jpg" alt="Jonas Brothers" />
+                    <figcaption>
+                        <p class="artista">Jonas Brothers</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>25/04/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Movistar Arena</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@irishsuarez</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/megadeth-2-2024.jpg" alt="Megadeth" />
+                    <figcaption>
+                        <p class="artista">Megadeth</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>12/04/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Movistar Arena</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@martintomascesar</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/louist.jpg" alt="Louis Tomlinson" />
+                    <figcaption>
+                        <p class="artista">Louis Tomlinson</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>18/05/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Estadio Vélez Sarsfield</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@suntomlinson28</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/megadeth-2024.jpg" alt="Megadeth" />
+                    <figcaption>
+                        <p class="artista">Megadeth</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>12/04/2024</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Movistar Arena</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@changryan</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/taylor-swift-arg-23.jpg" alt="Taylor Swift" />
+                    <figcaption>
+                        <p class="artista">Taylor Swift</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>09/11/2023</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Estadio River Plate</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@endellimarcelo</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/the-weeknd.png" alt="The Weeknd" />
+                    <figcaption>
+                        <p class="artista">The Weeknd</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>18/10/2023</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Estadio River Plate</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@spivacowdiego</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/kiss.png" alt="Kiss" />
+                    <figcaption>
+                        <p class="artista">Kiss</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>23/04/2022</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Campo Argentino de Polo</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@rockbonaerense</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/def-leppard.png" alt="Def Leppard" />
+                    <figcaption>
+                        <p class="artista">Def Leppard</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>09/03/2023</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Parque Sarmiento</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@rocktambulos</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/skrillex.jpg" alt="Skrillex" />
+                    <figcaption>
+                        <p class="artista">Skrillex</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>19/03/2023</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Hipódromo de San Isidro</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@flow_arg</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/coldplay.jpg" alt="Coldplay" />
+                    <figcaption>
+                        <p class="artista">Coldplay</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>02/11/2022</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Estadio River Plate</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@estebanfernrod</p>
+                    </figcaption>
+                </figure>
+                <figure class="figures-explorar">
+                    <img src="./img/figures/explorar/dua-lipa.png" alt="Dua Lipa" />
+                    <figcaption>
+                        <p class="artista">Dua Lipa</p>
+                        <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>13/09/2022</p>
+                        <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p>Campo Argentino de Polo</p>
+                        <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                        <p class="credito">@bonettomartin</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </main>
+        <footer>© 2024 Ekaterina Tarapow. Todos los derechos reservados.</footer>
+        <script src="./js/main.js" defer></script>
+    </body>
+</html>

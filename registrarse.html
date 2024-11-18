@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>LiveLens | Registrarse</title>
+        <link rel="icon" href="./img/icons/livelens-icono.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="@sweetalert2/theme-borderless/borderless.css" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="./img/icons/livelens-logo.png" class="logo" /></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./explorar.html"><img src="./img/icons/buscar-icono.svg" alt="buscar" class="icono-nav" />Explorar</a>
+                    </li>
+                    <li>
+                        <a href="./proximos-eventos.html"
+                            ><img src="./img/icons/calendario-icono.svg" alt="calendario" class="icono-nav" />Próximos eventos</a
+                        >
+                    </li>
+                </ul>
+                <ul id="nav-cuenta">
+                    <li>
+                        <a href="./registrarse.html"
+                            ><img src="./img/icons/registro-icono.svg" alt="registro" class="icono-nav" />Registrarse</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./iniciar-sesion.html"
+                            ><img src="./img/icons/cuenta-icono.svg" alt="cuenta" class="icono-nav" />Iniciar sesión</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-form">
+            <h1>Registrarse</h1>
+            <form class="form-cuenta" id="signinForm">
+                <label
+                    >Nombre
+                    <input type="text" placeholder="Ingresar nombre" required="" />
+                </label>
+                <label
+                    >Apellido
+                    <input type="text" placeholder="Ingresar apellido" required="" />
+                </label>
+                <label
+                    >E-mail
+                    <input type="mail" placeholder="Ingresar mail" required="" />
+                </label>
+                <label
+                    >Teléfono
+                    <input type="number" placeholder="Ingresar teléfono" />
+                </label>
+                <div class="cuenta-submit">
+                    <input type="submit" value="Crear cuenta" />
+                </div>
+            </form>
+            <div class="successMessage">¡Registro exitoso! Bienvenido/a a la comunidad de LiveLens 🎉</div>
+        </main>
+        <footer>© 2024 Ekaterina Tarapow. Todos los derechos reservados.</footer>
+        <script src="./js/main.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>

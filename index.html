@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>LiveLens | Inicio</title>
+        <link rel="icon" href="./img/icons/livelens-icono.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="./img/icons/livelens-logo.png" class="logo" /></a>
+            <nav>
+                <ul class="nav-explorar">
+                    <li>
+                        <a href="./explorar.html"><img src="./img/icons/buscar-icono.svg" alt="buscar" class="icono-nav" />Explorar</a>
+                    </li>
+                    <li>
+                        <a href="./proximos-eventos.html"
+                            ><img src="./img/icons/calendario-icono.svg" alt="calendario" class="icono-nav" />Próximos eventos</a
+                        >
+                    </li>
+                </ul>
+                <ul id="nav-cuenta">
+                    <li>
+                        <a href="./registrarse.html"
+                            ><img src="./img/icons/registro-icono.svg" alt="registro" class="icono-nav" />Registrarse</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./iniciar-sesion.html"
+                            ><img src="./img/icons/cuenta-icono.svg" alt="cuenta" class="icono-nav" />Iniciar sesión</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="seccion-1">
+                <h1 class="animate__animated animate__flash">LiveLens</h1>
+                <video autoplay muted loop id="fondo-video">
+                    <source src="./img/videos/video-fondo.mp4" type="video/mp4" />
+                </video>
+                <p id="texto-bienvenida">
+                    ¡Te damos la bienvenida a LiveLens! Acá vas a encontrar fotos de tus conciertos favoritos en un solo lugar. ¿Qué estás
+                    esperando? ¡Hechale un vistazo y unite a nuestra comunidad!
+                </p>
+                <a href="./explorar.html" class="boton-inicio">Explorar</a>
+            </section>
+            <section id="seccion-2">
+                <div id="accion-1">
+                    <img src="./img/icons/foto-icono.svg" class="iconos-acciones" />
+                    <p class="t-acciones">Mirá fotos de conciertos y festivales</p>
+                </div>
+                <div id="accion-2">
+                    <img src="./img/icons/info-icono.svg" class="iconos-acciones" />
+                    <p class="t-acciones">Informate sobre los eventos</p>
+                </div>
+                <div id="accion-3">
+                    <img src="./img/icons/cuenta-icono.svg" class="iconos-acciones" />
+                    <p class="t-acciones">Creá una cuenta y forma parte de la comunidad</p>
+                </div>
+            </section>
+            <section id="seccion-3">
+                <h2>Imágenes subidas recientemente...</h2>
+                <div class="recientes">
+                    <figure class="figure-recientes">
+                        <img src="./img/figures/inicio/david-guetta.png" alt="David Guetta 2024" />
+                        <figcaption>
+                            <p class="artista">David Guetta</p>
+                            <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p>6/01/2024</p>
+                            <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p>Movistar Arena</p>
+                            <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p class="credito">@clarin</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure-recientes">
+                        <img src="./img/figures/inicio/anyma.png" alt="Anyma 2024" />
+                        <figcaption>
+                            <p class="artista">Anyma</p>
+                            <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p>09/04/2024</p>
+                            <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p>Punta Carrasco</p>
+                            <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p class="credito">@suarezfacundo</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure-recientes">
+                        <img src="./img/figures/inicio/diplo-2.jpg" alt="Diplo 2024" />
+                        <figcaption>
+                            <p class="artista">Diplo</p>
+                            <img src="./img/icons/fecha-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p>15/03/2024</p>
+                            <img src="./img/icons/lugar-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p>Hipódromo de San Isidro</p>
+                            <img src="./img/icons/camara-icono.svg" alt="fecha" class="icono-descripcion" />
+                            <p class="credito">@flow_arg</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+        <footer>© 2024 Ekaterina Tarapow. Todos los derechos reservados.</footer>
+    </body>
+</html>
