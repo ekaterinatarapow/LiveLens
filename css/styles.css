@@ -617,4 +617,10 @@ footer {
     .recientes {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .evento {
+        width: 80%;
+        margin: 5vh;
+        justify-content: center;
+    }
 }
